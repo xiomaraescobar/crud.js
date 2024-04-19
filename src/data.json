@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nombre": "luis",
+      "edad": 35,
+      "email": "luis@gmail.com",
+      "create_at": "2024-10-06T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "nombre": "fernando",
+      "edad": 20,
+      "email": "fernando@gmail.com",
+      "create_at": "2024-11-09T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "nombre": "camila",
+      "edad": 18,
+      "email": "camila@gmail.com",
+      "create_at": "2023-09-06T00:00:00.000Z"
+    }
+  ]

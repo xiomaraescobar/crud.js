@@ -1,4 +1,4 @@
-fetch('http://localhost:4000/infojson')
+fetch('http://localhost:4000/users')
 .then(response => response.json())
 .then((data) =>  {
     data.map((res) => {
@@ -22,3 +22,15 @@ fetch('http://localhost:4000/infojson')
     });
 })
 .catch(error => console.log(error));
+
+async function showID() {
+    try {
+        const response = await fetch('http://localhost:4000/users/4');
+        const json = await response.json();
+        console.log('hola luis', json);
+    }catch(error) {
+        console.log('aun no existe', error);
+
+    }
+} 
+showID();

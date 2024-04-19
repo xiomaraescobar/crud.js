@@ -13,12 +13,12 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static('public'));
-
 //asignacion de contenidos
 const routerEstructura = require('./api/estructuras'); 
+const routerUsers = require('./api/usersinfo'); 
 //middleware = app.use('/, function);
 app.use('/', routerEstructura);
-
+app.use('/', routerUsers);
 
 
 const port = 4000;
